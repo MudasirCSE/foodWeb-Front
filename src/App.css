@@ -51,7 +51,7 @@ nav ul li a:hover {
 }
 .galleryImage {
   width: 100vw;
-  height: 90vh;
+  height: 70vh;
   margin-top: 63px;
 }
 
@@ -80,7 +80,7 @@ nav ul li a:hover {
 .card {
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 15px;
   width: 26vw;
   align-items: center;
   margin-right: 10px;
@@ -562,7 +562,7 @@ footer .footerAbout {
 
   .divBar {
     background: #48A6A7;
-    padding: 15px 40px;
+    padding: 75px 40px;
     transition: transform 1s ease-in;
   }
   .checkoutContainer {
@@ -633,6 +633,13 @@ footer .footerAbout {
     grid-gap: 10px;
     width: 95vw;
     margin-top: 15px;
+  }
+  .card .foodImg{
+    height: 38vh;
+    width: 88vw;
+  }
+  .cardContainer .card{
+    margin: auto;
   }
   .cartData .lines {
     width: 95vw;
