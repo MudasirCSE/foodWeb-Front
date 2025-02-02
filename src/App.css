@@ -513,7 +513,7 @@ footer .footerAbout {
     right: 0; /* Bring to right edge */
     top: 13%;
     width: 100vw;
-    padding: 22vh 0;
+    padding: 25vh 0;
   }
   nav ul {
     flex-direction: column;
