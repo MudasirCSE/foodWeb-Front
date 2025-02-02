@@ -39,8 +39,11 @@ export const AppContextProvider = (props) => {
       if (data.success) {
         setIsLoggedIn(true);
         getUserData();
+      }else{
+        setIsLoggedIn(false)
       }
     } catch (error) {
+      setIsLoggedIn(false);
       toast.error(error.message);
     }
   };
@@ -54,14 +57,21 @@ export const AppContextProvider = (props) => {
   const getUserData = async () => {
     try {
       const { data } = await axios.get(backendURL + "/data");
-      data.success ? setUserData(data.userData) : toast.error(data.message);
-      console.log(data);
-      const values = data.userData;
-      // console.log(val)
-      const { username, email } = values;
-      setUser(() => {
-        return [username, email];
-      });
+      if (data.success && data.userData) {
+        setUserData(data.userData);
+        const { username, email } = data.userData; // Safely access data
+        setUser([username, email]);
+      } else {
+        toast.error("No user data found.");
+      }
+      // data.success ? setUserData(data.userData) : toast.error(data.message);
+      // console.log(data);
+      // const values = data.userData;
+      // // console.log(val)
+      // const { username, email } = values;
+      // setUser(() => {
+      //   return [username, email];
+      // });
     } catch (error) {
       toast.error(error.message);
     }
