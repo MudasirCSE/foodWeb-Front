@@ -636,10 +636,11 @@ footer .footerAbout {
   }
   .card .foodImg{
     height: 38vh;
-    width: 88vw;
+    width: 83vw;
   }
   .cardContainer .card{
     margin: auto;
+    width: 80vw;
   }
   .cartData .lines {
     width: 95vw;
