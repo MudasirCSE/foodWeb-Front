@@ -94,7 +94,7 @@ nav ul li a:hover {
 }
 .card .foodImg {
   object-fit: cover;
-  height: 15vw;
+  height: 30vw;
   border-radius: 5px;
 }
 .card .values {
