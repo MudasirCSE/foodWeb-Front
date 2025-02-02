@@ -63,6 +63,7 @@ nav ul li a:hover {
 }
 .foodContainer h2 {
   text-indent: 40px;
+  margin-top: 30px;
 }
 .foodContainer .line {
   height: 2px;
@@ -93,7 +94,7 @@ nav ul li a:hover {
 }
 .card .foodImg {
   object-fit: cover;
-  height: 13vw;
+  height: 15vw;
   border-radius: 5px;
 }
 .card .values {
