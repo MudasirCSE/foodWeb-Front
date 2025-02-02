@@ -10,8 +10,32 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/login",
+      "dest": "/"
+    },
+    {
+      "src": "/signup",
+      "dest": "/"
+    },
+    {
+      "src": "/cart",
+      "dest": "/"
+    },
+    {
+      "src": "/checkout",
+      "dest": "/"
+    },
+    {
+      "src": "/myorders",
+      "dest": "/"
+    },
+    {
+      "src": "/allorders",
+      "dest": "/"
     }
   ]
 }
