@@ -36,7 +36,7 @@ const Food = () => {
       {/* Render categories */}
       {categories.length > 0 ? (
         categories.map((category, index) => (
-          <div key={index} id={index}>
+          <div key={index} id={index} className="fooddo">
             <h2>{category.categoryName}</h2>
             <div className="line"></div>
             <div className="cardContainer">

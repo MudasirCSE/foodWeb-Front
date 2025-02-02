@@ -80,7 +80,7 @@ nav ul li a:hover {
 .card {
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  padding: 5px;
   width: 26vw;
   align-items: center;
   margin-right: 10px;
@@ -636,11 +636,10 @@ footer .footerAbout {
   }
   .card .foodImg{
     height: 38vh;
-    width: 83vw;
+    width: 88vw;
   }
   .cardContainer .card{
     margin: auto;
-    width: 80vw;
   }
   .cartData .lines {
     width: 95vw;
