@@ -183,7 +183,7 @@ nav ul li a:hover {
   align-items: center;
 }
 .loginContainer form input {
-  padding: 10px 40px;
+  padding: 10px 15px;
   outline: none;
   font-size: 18px;
   margin-bottom: 5px;
@@ -623,7 +623,7 @@ footer .footerAbout {
   }
   .loginContainer form input {
     padding: 10px 5px;
-    text-indent: 30px;
+    text-indent: 10px;
   }
   .loginContainer form input[type="submit"] {
     padding: 10px 30px;
